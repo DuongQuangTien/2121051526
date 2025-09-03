@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- MARQUEE cho phép các đối tượng chạy trên trình duyệt -->
+    <MARQUEE><img src="C:\Users\ADMIN\Pictures\Screenshots\Ảnh chụp màn hình 2025-07-07 213509.png"></MARQUEE>
+    <!-- Danh sách -->
+     <!-- Thẻ ol sử dụng để liệt kê danh sách có thứ tự -->
+      <p>Danh sách các công việc buổi sáng </p>
+      <ol>
+        <li>Thức dậy</li>
+        <li>Đánh răng</li>
+        <li>rửa mặt</li>
+        <li>Giả lao</li>
+      </ol>
+      <!-- không thứ tự ul,li -->
+       <p>các ngôn ngữ lập trình web</p>
+       <ul>
+        <li>python</li>
+        <li>PHP</li>
+        <li>Javasctip</li>
+        <li>c#</li>
+       </ul>
+       <!-- form dùng để tương tác với người dùng  -->
+       <!--placeholder dùng để thuộc tính của input  -->
+       <!-- value dùng để điền một thông tin cố định-->
+       <h1>form</h1>
+       <form>
+        <div>
+        <!-- div dùng để phần tử khối  -->
+        <b>Họ và Tên :</b>
+        <input type="text" name="hoten" placeholder="Nhập tên vào đây">
+        </div>
+        <br>
+        <div>
+        <!-- div dùng để phần tử khối  -->
+        <b>Năm :</b>
+        <input type="text" name="nam" value="2025" readonly>
+        </div>
+        <br>
+        <div>
+        <!-- textarea-->
+        <b>Giới thiệu chi tiết về bản thân</b><br>
+        <textarea name="gioithieu">Nhập giới thiệu...</textarea>
+        </div>
+        <br>
+         <div>
+        <!--  -->
+        <b>email:</b>
+        <input type="email" name="email" placeholder="dạng @email.com">
+        <input type="submit" value="Gửi">
+        </div>
+        <br>
+        <div>
+            <!-- requỉed bắt buộc nhập đầy đủ thông tin k được để trống -->
+             <!-- pattern nhập đúng -->
+            <b>Số điện thoại:</b><br>
+            <!--số đầu tiên 0
+            số thứ 2 : 0,3,9
+            8 số cuối 0-9-->
+            <input name="sodienthoai"
+            type="tel" placeholder="Dạng số:09xxxxxxxx"
+            required pattern="([0]{1}([0,3,9]{1})([0-9]{8}))">
+        </div>
+        <div>
+            <!-- radio-->
+             <!-- checkbox-->
+            <b>Giời tính</b><br>
+            <input type="radio" name="gioitinh" value="nam">Nam <br>
+             <input type="radio" name="gioitinh" value="nu">Nu <br>
+              <input type="radio" name="gioitinh" value="khongxacdinh">Khônng xác định <br>
+        </div>
+        <br>
+        <div>
+            <b>sở thích</b> <br>
+            Game:<input type="checkbox" name="sothich" value="game"> <br>
+            Music:<input type="checkbox" name="sothich" value="music"> <br>
+            sport:<input type="checkbox" name="sothich" value="sport"> <br>
+        </div>
+        <div>
+        <b>Trình duyệt ưa thích</b> <br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <optiom value="chrome">
+            <option value="opera">
+        </datalist>
+        <br>
+        <select name="browsers">
+            <option value="Internet Explorer">Internet Explore</option>
+            <option value="Firefox">Firefo</option>
+            <optiom value="chrome">chrome</optiom>
+            <option value="opera">oper</option>
+            <option value="safari">safari</option>
+            <option value="cốc cốc">cốc cốc</option>
+        </select>
+        </div>
+        <div>
+            0 <input type="range" value="20"> 100
+        </div>
+        <br>
+        <div>
+            <!-- number cho phép người dùng nhập số k cho nhập chữ -->
+             <!-- step là thuộc tính -->
+             <b>tuổi</b>
+             <input type="number" name="tuoi" step="0,5">
+        </div>
+        <br>
+        <div>
+            <b>Ngày Tháng Năm sinh</b>
+            <input type="date" name="ngaythangnamsinh>">
+        </div>
+        <div>
+            <b>màu sắc yêu thích</b>
+            <input type="color" name="id">
+        </div>
+        <br>
+        <div>
+            <b>chọn ảnh đại diện</b>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <b>mật khẩu</b>
+            <input type="password>">
+        </div>
+        <div>
+            <input type="reset"> <br>
+        </div>
+        <div>
+            <input type="submit" value="Gửi">
+        <!--  input type="button" tương tự submit-->
+        </div>
+       </form>
+       <!-- thẻ iframe with  cho phép chạy video-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8zRy02Wl1JA?si=4uzCs0bYrVXGY5Jh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+        <br>
+       <video controls width="560" height="315">
+        <source src="C:\Users\ADMIN\Downloads\aaa.mp4" type="video/mp4">
+    </video>
+       <audio controls>
+        <source src="C:\Users\ADMIN\Downloads\Anh Vui - Phạm Kỳ (Duzme Remix) _ Anh Vui Đến Nỗi Nghẹn Ngào...Remix Tik Tok.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
