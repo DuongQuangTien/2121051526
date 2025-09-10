@@ -59,14 +59,14 @@ main {
 }
 
 .noidung-trai {
-    width: 75%;
+    width: 85%;
     border-radius: 10px;
     /* border - radius để chỉnh độ cong */
 }
 
 .noidung-phai {
     height: 1000px;
-    width: 25%;
+    width: 15%;
     background-color: white
 }
 
@@ -111,7 +111,7 @@ main {
 
 .tieude-phai {
     color: white;
-    padding: 20px;
+     padding:20px ;
     font-size: x-large;
     font-weight: bold;
     background-color: #2fa4e7;
@@ -195,6 +195,25 @@ input {
     background-color: #2fa4e7;
     border: none;
     color: white;
-    padding: 8px 0;
-    border-radius: 5px;
+    padding: 8px;
+    border-radius:5px;
+    margin: 3px;
+}
+.btn-office{
+    width: 100%;
+    background-color: #2fa4e7;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+    text-align: center;
+    margin: 3px;
+}
+.tieude-left{
+   color: white;
+     padding:10px ;
+    font-weight: bold;
+    background-color: #2fa4e7;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 5px;
 }
