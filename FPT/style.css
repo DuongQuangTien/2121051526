@@ -124,12 +124,18 @@ font-size: large;
     font-weight: bold;
 }
 .divide{
-    width: 200%;
-    border: .10px solid #252525;
-    margin: 50px 40px ;
+    width: 100%;
+    border: .5px solid #252525;
+    margin: 0 40px ;
     border-left: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 83%;
+    border-right: none;
+    
+    
 }
-.ten_diachi img{
+.footer-image img{
     align-items: center;
     display: flex;
     width: 150px ;  
@@ -139,13 +145,8 @@ font-size: large;
 .footer{
     align-items: center;
     display: flex;
-}
-.huongdan{
-    display: flex;
-    justify-content: space-between;
-    width:1200px;
-    margin: 0;
-    gap: 20px;
+    padding-top: 20px;
+
 }
 .footer-head p{
     display: block;
@@ -153,14 +154,31 @@ font-size: large;
     text-decoration:none;
     margin: 10px 0;
     font-family: Times New Roman;
+    
 }
 .footer-head a:hover{
     text-decoration: none;
     color: orange;
     display: flex;
 }
-.diachi{
-    display: flex;
+.the_end{
+   font-size: 13px;
+  color: white; 
+  background-color: #131314; 
+  padding-bottom: 50px;
+  text-align: 20px;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.the_end p{
+   text-decoration: none;
+  margin-left: 240px;
+  color: grey;   
+  align-items: flex-start;
+
+}
+ .p{
+    margin: 0;
 }
 
 

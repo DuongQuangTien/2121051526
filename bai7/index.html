@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài javaScript</title>
+    <script src="script.js"> </script>
+</head>
+<body>
+    
+</body>
+<script> 
+
+    // + dùng cộng để nối chuỗi 
+    // để khai báo biến JS dùng let hoặc var
+    
+    document.writeln("Hello word!"  + "  " +  " 2003 " + "<br>" );
+
+    let hoTen = " Duong Quang Tien" + "<br> ";
+    document.writeln( hoTen);
+    let soThuNhat = 10;
+    let soThuHai = 5;
+    let ketQua = 0;
+
+    //ketQua = soThuNhat / soThuHai;
+    //soThuNhat += soThuHai ;
+
+    //!
+    // === so sánh về giá trị và kiểu dữ liệu 
+    // ! dấu này là phủ định 
+    let thongTinSinhVien = {
+        hoTen : " Duong Quang Tien",
+        mssv : " 2121051526",
+        gioitinh : true,
+        tuoi : 22,
+        lop : " Đại học _ Hệ thống thông tin _ K66E",
+
+    }
+     
+
+    let diaChi = {
+        thanhPho : " Vĩnh Phúc ",
+        phuong: " Yên Lạc ",
+        duong: "Nguyễn Khoan",
+        soNha:386,
+    }
+    thongTinSinhVien.diachi = diaChi;
+   
+    document.writeln("Xin chào bạn :" + thongTinSinhVien.hoTen + " " + thongTinSinhVien.tuoi + " tuổi " +" nhà ở " + "<br>"
+     );
+    let namnay=2025;
+    document.writeln(" Bạn : " + thongTinSinhVien.hoTen + " " + "Sinh Năm" + " " +(namnay - thongTinSinhVien.tuoi))
+</script>
+</html>
