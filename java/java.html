@@ -49,12 +49,18 @@
         // các phương thức của chuỗi
         // var , my -- var 
 
-        var myString = "Hello TieN";
-       //  document.writeln(myString.replace("Hello","Hi"));
-      //  dùng replace
+        // chuyển chuỗi thành số 
+        // length-1 để lấy số cuối cùng 
+        // document.writeln("SO.[SO.length-1]") để kiểm tra kiểu dữ liệu 
+
+      //  var myString = "Hello TieN";
+       
+       //document.writeln(myString.split(""));
+        // document.writeln(myString.split("/ "));   
+        // dùng replace
 
        // document.writeln(myString.toUpperCase());
-        //toUpperCase để viết hoa tất cả
+        //toUpperCase để viết hoa tất cả 
 
        // document.writeln(myString.indexOf('e'));
         //indexoff trả ra vị trí xuất hiện 
@@ -62,16 +68,19 @@
 
        //  document.writeln(myString.includes('e'));
          //nếu có trả ra true , không trả ra flase
-          
+          // dùng trim để xóa khoảng trắng 
 
          //tách chuỗi thành mảng 
-     //    let danhsach =["Phạm Việt Anh","Nguyễn Tiến Bách","Lương Ngọc Bích ","Dương Quang Tiến "];
-    //     document.writeln(danhsach[1].startsWith("Dương"));
+            // let danhsach =["Phạm Việt Anh","Nguyễn Tiến Bách","Lương Ngọc Bích","Dương Quang Tiến "];
+            // document.writeln(danhsach[2].endsWith("Bích"));
 
             // //chuyển chuỗi về số
-            // let so = " 123 ";
-            // document.writeln(typeof (so));
-            // document.writeln()
+            // number 
+            // parseInt2
+            // parseFloat
+            //  let so = " 123.345 ";
+            //  document.writeln(  parseInt (so));
+            //  document.writeln();
 
             // parseFloat chuyển đổi chuỗi thành số thực 
             // parseInt chuyển dỗi chuoix thành số nguyên 
@@ -81,10 +90,22 @@
             // toFixed 
         
             //date
-            let today = new Date ('2025-09-24');
-            document.writeln(today.getFullYear());
-       
-       
+            // let today = new Date ();
+            //  document.writeln(today.getSeconds());
+
+            let so = "100000000000004"
+            // document.writeln(so[so.length-1]);
+            let soCuoiCung = parseInt (so[so.length-1]);
+            // kiểm tra số là số chẵn hay lẻ 
+            if(soCuoiCung %2 == 0){
+                document.writeln(" la so chan !");
+            }
+            else{
+                document.writeln("đây là số lẻ ")
+            }
+
+            
+
 
 
     </script>
