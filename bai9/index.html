@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //alert("xin chào bạn");
+
+        // let result = confirm ("Press a button");
+        // if(result == true ){
+        //     document.writeln("Press OK! <br>");
+        // }
+        // else{
+        //     document.writeln("Press Cancel! <br>");
+        // }
+
+
+
+        // let toDay = new Date();
+        // let theDay = toDay.getDay();
+        // document.writeln(theDay);
+        // switch(theDay){
+        //     //kiểm tra có phải thứ 6 hay k 
+        //     case 5 : 
+        //     document.writeln("Finally Friday");
+        //     break;
+        //     // kiểm tra có phải thứ 7 hay k
+        //     case 6:
+        //         document.writeln("Super saturday");
+        //         break;
+        //     case 0:
+        //         document.writeln("Sleepy Sunday");
+        //         break;
+        //     default:
+        //         document.writeln("I'm looking forward to the weekend ! ");
+
+            // let arrUm = [ 0,1 ,2, 3, 4, 5 ];
+            // document.writeln(arrUm.length);
+            // document.writeln(arrUm[5]);
+            // for(let j = 0;j < arrUm.length;j++){
+            //     document.writeln(arrUm[j]+ "<br>");
+            // }
+             
+
+            // let result2 = prompt("somtext", "default value");
+            // document.writeln(result2);
+            // let danhSach = ["Lương Ngọc	Bích ", "Dương Gia Bình ", "Nguyễn Như Thành	Danh ", "Hoàng Xuân	Duẩn ", "Hà Văn	Dũng"]
+            // // document.writeln(danhSach.length);
+            // // document.writeln(danhSach[4]);
+            // for(let j = 0; j < danhSach.length; j++){
+            //     document.writeln("xin chào " + danhSach[j]+ "<br>")
+            // }
+
+            // let i = 0
+            // while (i<10){
+            //     document.writeln("The number is" + i + "<br>");
+            //     i=i+1;
+            // }
+
+
+            // for(i=1; i<1000;i++){
+            //     document.writeln(i + " " + "Anh xin lỗi <br>") ;
+            // }
+
+           
+            // function + tên hàm (){
+            //     code 
+            // }
+            // //let + tên biến = giá trị
+            //hàm k tham số 
+            // let name = " Lưu Giang Thái "
+            // function sayHello(){
+            //    document.writeln("Hello" + name );
+
+            //  }
+            //     sayHello();
+            // sayHello();
+            // biến toàn cục khai báo bên ngoài 
+            // biến cục bộ khai báo bên trong 
+            // // có tham số 
+            // function sayHello2(name, age,){ 
+            //     document.writeln("Hello"+ name + "" + age + "tuổi" );
+            // }
+            // let nameP = prompt("Tên"," Điền tên");
+            // let ageP = prompt("Tuổi", "Điền tuổi");
+            // sayHello2(nameP,ageP);
+        //}
+       let mode = prompt("Mời bạn nhập số:"); // abc
+
+        function check(mode) {
+            if (mode % 2 == 0) {
+                document.write(mode + " là số chẵn");
+            } else {
+                document.write(mode + " là số lẻ");
+            }
+        }
+
+        //mode (abc) is not a number (true)
+        if (!isNaN(mode)) {
+            mode = parseFloat(mode);
+            check(mode);
+        }
+        else {
+            document.writeln("Vui lòng nhập vào số!");
+        }
+
+
+        
+ 
+
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
+
