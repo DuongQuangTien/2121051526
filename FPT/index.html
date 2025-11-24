@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <!-- <script src="script.js"> </script> -->
 </head>
-
 <body>
     <header>
         <div class="header-container">
@@ -34,17 +35,181 @@
             </div>
         </div>
     </header>
+  
     <main>
         <div class="quangcao">
             <img src="logo1 fpt.jpg" alt="">
         </div>
         <div class="container">
+
             <div>
-                <div style="display: flex; justify-content: center;">
-                    <img class="banner" src="640x396-muado.jpg" alt="">
+                <div class="div" style="display: flex; justify-content: center;">
+                    <iframe id="trailer" width="1014" height="374" src="https://www.youtube.com/embed/hrF9kgBScgE" title="A Special Lady - Trailer (미옥 예고편)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <img class="banner" src="https://images.fptplay53.net/media/OTT/VOD/2024/11/27/quy-ba-dac-biet-fpt-play-1732696144596_Background_origin.jpg?w=1018&c=0" alt="">
+                     <!-- <img class="banner" src="z6993379031169_e0b7a9f4c4791a3b9e723bf1e2eb4217.jpg" alt="">
+                      <video id="trailer" controls width="560" height="315">
+                              <source src=".\giang thai.mp4" type="video/mp4"></video> -->
+                    <div class="tieude-phim">
+                        <ul class="add">
+                            <a href="">2014</a>
+                            <li>T16</li>
+                            <li>2 giờ 36 phút</li>
+                            <li>Trung Quốc</li>
+                        </ul>
+                        <div class="watch-icon">
+                            <button onclick="trailer()"class="watch"><i class="ti-control-play"></i>Xem ngay</button>
+                            <div class="circle">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="circle">
+                                <i class="ti-share"></i>
+                                <i class="fa-brands fa-spotify"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div style="display: flex; justify-content: center;">
                     <img class="qc" src="29_68b1d52110013f00012ebbf1.png" alt="">
+                </div>
+            </div>
+            <div class="theloai">
+                <div class="tentheloai">
+                    Thể loại
+                </div>
+                <div class="danhsach">
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/photo/12_05_2022/group-42732140812-05-2022_13g51-40.png?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">   
+                           
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/photo/12_05_2022/group-42732140912-05-2022_13g53-36.png?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/photo/12_05_2022/group-42732141012-05-2022_13g52-57.png?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                           
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/photo/12_05_2022/group-42732141112-05-2022_13g52-30.png?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                                
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/photo/OTT/2022/08/18/1660806969_X6J.png?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                           
+                        </div>  
+                    </div>
+                </div>
+                <div class="tentheloai">
+                    Tâm Lý Tình Cảm 
+                </div>
+                <div class="danhsach">   
+                    <div onclick="chooseFilm(1)"class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/01/24/hai-muoi-fpt-play-1737684521733_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Hai muối
+                        </div>
+                    </div>
+                    <div onclick="chooseFilm(2)" class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/04/27/bo-gia-fpt-play-1714183180215_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Bố già
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/01/24/co-dau-hao-mon-fpt-play-1737685225935_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Cô dâu hào môn
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/09/11/mai-fpt-play-1726033804277_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Mai
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2022/09/28/ngoi-nha-buom-buom-fpt-play-1664352526244_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Ngôi nhà bươm bướm
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="theloai">
+                <div class="tentheloai">
+                    Xem nhiều nhất tháng này
+                </div>
+                <div class="danhsach">
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/07/10/nha-gia-tien-fpt-play-1752114355761_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Nhà gia tiên
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/08/11/lam-giau-voi-ma-fpt-play-1754902451713_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Làm giàu với ma
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/08/11/den-am-hon-fpt-play-1754897915683_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Đèn âm hồn
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/05/16/dia-dao-mat-troi-trong-bong-toi-fpt-play-1747387385956_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Đia đạo: Mặt trời trong bóng tối
+                        </div>
+                    </div>
+                    <div class="phim">
+                        <div class="anh">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/07/14/cam-fpt-play-1752481571060_Portrait_origin.jpg?w=300&c=0" alt="">
+                        </div>
+                        <div class="ten">
+                            Cám
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="theloai">
@@ -54,283 +219,188 @@
                 <div class="danhsach">
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/09/venom-keo-cuoi-fpt-play-1749442809350_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Venom: kèo cuối
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/09/bao-dong-o-la-fpt-play-1749445227113_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Báo động ở L.A
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/09/noi-tinh-yeu-ket-thuc-fpt-play-1749446425261_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Nơi tình yêu kết thúc
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/09/giua-hai-thai-duong-fpt-play-1749446730311_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Giữa hai thái dương
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/09/tan-sat-2-fpt-play-1749446890806_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Tàn Sát 2
                         </div>
                     </div>
                 </div>
             </div>
             <div class="theloai">
                 <div class="tentheloai">
-                    Phim điện ảnh hay nhất 
+                    Phim điện ảnh hay nhất
                 </div>
                 <div class="danhsach">
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/04/27/bo-gia-fpt-play-1714183180215_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Bố già
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/07/14/cuoi-ma-giai-han-fpt-play-1752477703727_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Cưới ma giải hạn
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/01/24/co-dau-hao-mon-fpt-play-1737685225935_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Cô dâu hào môn
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/09/02/khi-con-la-nha-fpt-play-1725289054176_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Khi con là nhà
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/04/25/gap-lai-chi-bau-fpt-play-1714048787438_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Gặp lại chị bầu
                         </div>
                     </div>
                 </div>
             </div>
             <div class="theloai">
                 <div class="tentheloai">
-                    Phim hành động gay cấn 
+                    Phim hành động gay cấn
                 </div>
                 <div class="danhsach">
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/09/30/hiep-si-mat-na-gia-dinh-sieu-pham-fpt-play-1727665332415_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Hiệp sĩ mặt nạ: Gia đình siêu phàm
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/07/nhuong-tu-dan-phi-fpt-play-1749306425099_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Nhược tử đạn phi
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/08/08/cuu-long-thanh-trai-vay-thanh-fpt-play-1723092219961_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Cửu long thành trại: Vây thành
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/06/23/dac-nhiem-my-nhan-fpt-play-1750665279528_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Đặc nhiệm mỹ nhân
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2022/04/22/lat-mat-48h-fpt-play-1650617966441_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Lật mặt: 48h
                         </div>
                     </div>
                 </div>
             </div>
             <div class="theloai">
                 <div class="tentheloai">
-                    Phim kinh dị dật gân
+                    Phim tâm lý đỉnh cao
                 </div>
                 <div class="danhsach">
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/09/10/loi-chao-cuoi-cung-fpt-play-1757498790006_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Lời chào cuối cùng 
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2025/09/11/loi-thu-toi-tu-tu-fpt-play-1757584671725_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Lời thú tội tử tù
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/09/26/cai-gia-cua-hanh-phuc-fpt-play-1727322793628_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Cái giá của hạnh phúc
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/12/02/an-mang-lau-4-fpt-play-1733112200762_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Án mạng lầu 4
                         </div>
                     </div>
                     <div class="phim">
                         <div class="anh">
-                            <img src="muado1.jpg" alt="">
+                            <img src="https://images.fptplay53.net/media/OTT/VOD/2024/06/28/chi-chi-em-em-fpt-play-1719576175277_Portrait_origin.jpg?w=300&c=0" alt="">
                         </div>
                         <div class="ten">
-                            Mưa đỏ
+                            Chị chị em em
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="theloai">
-                <div class="tentheloai">
-                    Phim tâm lý tình cảm 
-                </div>
-                <div class="danhsach">
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="theloai">
-                <div class="tentheloai">
-                    Phim tài liệu chân thực 
-                </div>
-                <div class="danhsach">
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                    <div class="phim">
-                        <div class="anh">
-                            <img src="muado1.jpg" alt="">
-                        </div>
-                        <div class="ten">
-                            Mưa đỏ
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
+        </div>
             
             <footer class="footer">
                 <div class="divide">
@@ -383,10 +453,34 @@
                 </div>
             </footer>
         </div>
+        
+         <script> 
+            
+    //     function closeshowSidebar(){
+    //         debugger;
+    //         const sidebar = document.querySelector('.side-bar');
+    //         if(sidebar.style.display === 'none'){
+    //             sidebar.style.display = 'flex';
+    //         }
+    //         else{
+    //             sidebar.style.display = 'none';
+    //         }
+    //     }
+    //    function trailer(){
+    //         let contentPhim = document.querySelector('.tieude-phim ul');
+    //         let but = document.querySelector('.watch-icon');
+    //         let play = document.getElementById('trailer');
+    //         play.style.display = 'block';
+    //         contentPhim.style.display = 'none';
+    //         but.style.display = 'none'
+    //    }
+    //  </script>
+        
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
